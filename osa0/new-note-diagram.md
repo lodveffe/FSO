@@ -14,5 +14,7 @@ sequenceDiagram
     B->>S: GET exampleapp/main.js
     S->>B: JS content
     B->>S: GET exampleapp/data.json
+    S->>B: JSON content
+    B->>B: JS callback parses JSON and updates DOM
     B->>U: Page updated with new note
 ```
