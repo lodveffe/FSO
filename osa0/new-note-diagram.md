@@ -10,6 +10,9 @@ sequenceDiagram
     B->>S: GET /exampleapp/notes
     S->>B: HTML content
     B->>S: GET exampleapp/main.css
+    S->>B: CSS content
     B->>S: GET exampleapp/main.js
+    S->>B: JS content
+    B->>S: GET exampleapp/data.json
     B->>U: Page updated with new note
 ```
