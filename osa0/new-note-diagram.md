@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant U as user
     participant B as browser
@@ -11,3 +12,4 @@ sequenceDiagram
     B->>S: GET exampleapp/main.css
     B->>S: GET exampleapp/main.js
     B->>U: Page updated with new note
+```
